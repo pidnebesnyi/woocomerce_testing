@@ -1,0 +1,1413 @@
+versions pytest-7.4.0, python-3.10.5.final.0
+cwd=/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER
+args=('-m', 'tcid29', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x10618ca00>
+    pytest_plugin_registered [hook]
+        plugin: <Session PRIVATE_FOLDER exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x10618ca00>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x106268f70>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x1062690c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x10618ca00>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=6 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=7 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=8 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=9 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=4 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x106268f70>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x1062690c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x1062693c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x10626b130>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x10618ca00>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=6 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=7 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=8 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=9 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=4 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x106268f70>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x1062690c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x1062693c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x10626b130>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x10626b610>
+          manager: <_pytest.config.PytestPluginManager object at 0x105006ad0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x10618ca00>
+          start_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER
+          startdir: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER
+      finish pytest_report_header --> [['rootdir: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER'], ['using: pytest-7.4.0']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (PosixPath('/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER'), []) [collection]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/.DS_Store
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/.DS_Store
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/.DS_Store
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/.DS_Store
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/.gitignore
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/.gitignore
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/.gitignore
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/.gitignore
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytestdebug.log
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytestdebug.log
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytestdebug.log
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytestdebug.log
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pyvenv.cfg
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pyvenv.cfg
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pyvenv.cfg
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pyvenv.cfg
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/setup.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/setup.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/setup.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/setup.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/.idea
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/.idea
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/.pytest_cache
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/.pytest_cache
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/build
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/build
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/dist
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/dist
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/.pytest_cache
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/.pytest_cache
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_1.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_1.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_1.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_1.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_1.py
+                  path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_1.py
+              finish pytest_pycollect_makemodule --> <Module pytest_tutorial/my_tests/test_suite_1.py> [hook]
+            finish pytest_collect_file --> [<Module pytest_tutorial/my_tests/test_suite_1.py>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_2_with_class.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_2_with_class.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_2_with_class.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_2_with_class.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_2_with_class.py
+                  path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_2_with_class.py
+              finish pytest_pycollect_makemodule --> <Module pytest_tutorial/my_tests/test_suite_2_with_class.py> [hook]
+            finish pytest_collect_file --> [<Module pytest_tutorial/my_tests/test_suite_2_with_class.py>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/__init__.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/__init__.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/__init__.py
+                  path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/__init__.py
+              finish pytest_pycollect_makemodule --> <Package ssqaapitest> [hook]
+            finish pytest_collect_file --> [<Package ssqaapitest>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/.pytest_cache
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/.pytest_cache
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/__init__.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/__init__.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/__init__.py
+                  path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/__init__.py
+              finish pytest_pycollect_makemodule --> <Package src> [hook]
+            finish pytest_collect_file --> [<Package src>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs/__init__.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs/__init__.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs/__init__.py
+                  path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs/__init__.py
+              finish pytest_pycollect_makemodule --> <Package configs> [hook]
+            finish pytest_collect_file --> [<Package configs>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers/__init__.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers/__init__.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers/__init__.py
+                  path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers/__init__.py
+              finish pytest_pycollect_makemodule --> <Package helpers> [hook]
+            finish pytest_collect_file --> [<Package helpers>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/__init__.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/__init__.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/__init__.py
+                  path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/__init__.py
+              finish pytest_pycollect_makemodule --> <Package utilities> [hook]
+            finish pytest_collect_file --> [<Package utilities>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/__init__.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/__init__.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/__init__.py
+                  path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/__init__.py
+              finish pytest_pycollect_makemodule --> <Package tests> [hook]
+            finish pytest_collect_file --> [<Package tests>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers/test_create_customers_smoke.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers/test_create_customers_smoke.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers/test_create_customers_smoke.py
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers/test_create_customers_smoke.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers/test_create_customers_smoke.py
+                  path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers/test_create_customers_smoke.py
+              finish pytest_pycollect_makemodule --> <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py> [hook]
+            finish pytest_collect_file --> [<Module ssqaapitest/tests/Customers/test_create_customers_smoke.py>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/PKG-INFO
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/PKG-INFO
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/PKG-INFO
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/PKG-INFO
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/SOURCES.txt
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/SOURCES.txt
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/SOURCES.txt
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/SOURCES.txt
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/dependency_links.txt
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/dependency_links.txt
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/dependency_links.txt
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/dependency_links.txt
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/top_level.txt
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/top_level.txt
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/top_level.txt
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest.egg-info/top_level.txt
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv
+            finish pytest_ignore_collect --> True [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10618ca00>
+                collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3
+                path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3
+            finish pytest_ignore_collect --> True [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=9 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=9 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module pytest_tutorial/my_tests/test_suite_1.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module pytest_tutorial/my_tests/test_suite_1.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module pytest_tutorial/my_tests/test_suite_1.py>
+      find_module called for: test_suite_1 [assertion]
+      matched test file '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_1.py' [assertion]
+      found cached rewritten pyc for /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_1.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module pytest_tutorial/my_tests/test_suite_1.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module pytest_tutorial/my_tests/test_suite_1.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module pytest_tutorial/my_tests/test_suite_1.py>
+            name: test_login_page_valid_user
+            obj: <function test_login_page_valid_user at 0x1062b25f0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1062c4be0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_login_page_valid_user>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module pytest_tutorial/my_tests/test_suite_1.py>
+            name: test_login_page_wrong_password
+            obj: <function test_login_page_wrong_password at 0x1062b2680>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1062c5120>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_login_page_wrong_password>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'pytest_tutorial/my_tests/test_suite_1.py' lenresult=2 outcome='passed'> [hook]
+    genitems <Function test_login_page_valid_user> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_login_page_valid_user>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_login_page_wrong_password> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_login_page_wrong_password>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'pytest_tutorial/my_tests/test_suite_1.py' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module pytest_tutorial/my_tests/test_suite_2_with_class.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module pytest_tutorial/my_tests/test_suite_2_with_class.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module pytest_tutorial/my_tests/test_suite_2_with_class.py>
+      find_module called for: test_suite_2_with_class [assertion]
+      matched test file '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_2_with_class.py' [assertion]
+      found cached rewritten pyc for /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/pytest_tutorial/my_tests/test_suite_2_with_class.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module pytest_tutorial/my_tests/test_suite_2_with_class.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module pytest_tutorial/my_tests/test_suite_2_with_class.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module pytest_tutorial/my_tests/test_suite_2_with_class.py>
+            name: TestCheckout
+            obj: <class 'test_suite_2_with_class.TestCheckout'>
+        finish pytest_pycollect_makeitem --> <Class TestCheckout> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'pytest_tutorial/my_tests/test_suite_2_with_class.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Class TestCheckout> [collection]
+      pytest_collectstart [hook]
+          collector: <Class TestCheckout>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Class TestCheckout>
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestCheckout>
+            name: test_checkout_as_guest
+            obj: <function TestCheckout.test_checkout_as_guest at 0x1062b27a0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1062c5d20>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_checkout_as_guest>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestCheckout>
+            name: test_checkout_as_existing_user
+            obj: <function TestCheckout.test_checkout_as_existing_user at 0x1062b2830>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1062c5cc0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_checkout_as_existing_user>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'pytest_tutorial/my_tests/test_suite_2_with_class.py::TestCheckout' lenresult=2 outcome='passed'> [hook]
+    genitems <Function test_checkout_as_guest> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_checkout_as_guest>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_checkout_as_existing_user> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_checkout_as_existing_user>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'pytest_tutorial/my_tests/test_suite_2_with_class.py::TestCheckout' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'pytest_tutorial/my_tests/test_suite_2_with_class.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package ssqaapitest> [collection]
+      pytest_collectstart [hook]
+          collector: <Package ssqaapitest>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package ssqaapitest>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/pytest.ini
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/pytest.ini
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package ssqaapitest>
+            file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/pytest.ini
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/pytest.ini
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/.pytest_cache
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/.pytest_cache
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/__init__.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/__init__.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers
+        finish pytest_ignore_collect --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'ssqaapitest/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'ssqaapitest/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package src> [collection]
+      pytest_collectstart [hook]
+          collector: <Package src>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package src>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs/__init__.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers/__init__.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/__init__.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'ssqaapitest/src/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'ssqaapitest/src/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package configs> [collection]
+      pytest_collectstart [hook]
+          collector: <Package configs>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package configs>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs/hosts_config.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs/hosts_config.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package configs>
+            file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs/hosts_config.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/configs/hosts_config.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'ssqaapitest/src/configs/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'ssqaapitest/src/configs/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package helpers> [collection]
+      pytest_collectstart [hook]
+          collector: <Package helpers>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package helpers>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers/customers_helper.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers/customers_helper.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package helpers>
+            file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers/customers_helper.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/helpers/customers_helper.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'ssqaapitest/src/helpers/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'ssqaapitest/src/helpers/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package utilities> [collection]
+      pytest_collectstart [hook]
+          collector: <Package utilities>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package utilities>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/credentialsUtility.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/credentialsUtility.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package utilities>
+            file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/credentialsUtility.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/credentialsUtility.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/genericUtilities.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/genericUtilities.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package utilities>
+            file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/genericUtilities.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/genericUtilities.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/requestsUtility.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/requestsUtility.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package utilities>
+            file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/requestsUtility.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/src/utilities/requestsUtility.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'ssqaapitest/src/utilities/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'ssqaapitest/src/utilities/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package tests> [collection]
+      pytest_collectstart [hook]
+          collector: <Package tests>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package tests>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/pytest.ini
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/pytest.ini
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package tests>
+            file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/pytest.ini
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/pytest.ini
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/test_healthcheck.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/test_healthcheck.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package tests>
+            file_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/test_healthcheck.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/test_healthcheck.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Package tests>
+              module_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/test_healthcheck.py
+              path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/test_healthcheck.py
+          finish pytest_pycollect_makemodule --> <Module test_healthcheck.py> [hook]
+        finish pytest_collect_file --> [<Module test_healthcheck.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            collection_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers/test_create_customers_smoke.py
+            path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers/test_create_customers_smoke.py
+        finish pytest_ignore_collect --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'ssqaapitest/tests/__init__.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Module test_healthcheck.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_healthcheck.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_healthcheck.py>
+      early skip of rewriting module: ssqaapitest [assertion]
+      early skip of rewriting module: ssqaapitest.tests [assertion]
+      find_module called for: ssqaapitest.tests.test_healthcheck [assertion]
+      matched test file '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/test_healthcheck.py' [assertion]
+      found cached rewritten pyc for /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/test_healthcheck.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_healthcheck.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_healthcheck.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_healthcheck.py>
+            name: logger
+            obj: <module 'logging' from '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/logging/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_healthcheck.py>
+            name: test_healthcheck_1
+            obj: <function test_healthcheck_1 at 0x1062b3010>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1062c5d80>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_healthcheck_1>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'ssqaapitest/tests/test_healthcheck.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_healthcheck_1> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_healthcheck_1>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'ssqaapitest/tests/test_healthcheck.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'ssqaapitest/tests/__init__.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py>
+      find_module called for: test_create_customers_smoke [assertion]
+      matched test file '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers/test_create_customers_smoke.py' [assertion]
+      found cached rewritten pyc for /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers/test_create_customers_smoke.py [assertion]
+      early skip of rewriting module: ssqaapitest.src [assertion]
+      early skip of rewriting module: ssqaapitest.src.utilities [assertion]
+      early skip of rewriting module: ssqaapitest.src.utilities.genericUtilities [assertion]
+      early skip of rewriting module: ssqaapitest.src.helpers [assertion]
+      early skip of rewriting module: ssqaapitest.src.helpers.customers_helper [assertion]
+      early skip of rewriting module: ssqaapitest.src.utilities.requestsUtility [assertion]
+      early skip of rewriting module: ssqaapitest.src.configs [assertion]
+      early skip of rewriting module: ssqaapitest.src.configs.hosts_config [assertion]
+      early skip of rewriting module: requests [assertion]
+      early skip of rewriting module: urllib3 [assertion]
+      early skip of rewriting module: urllib3.exceptions [assertion]
+      early skip of rewriting module: http [assertion]
+      early skip of rewriting module: http.client [assertion]
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      early skip of rewriting module: ssl [assertion]
+      early skip of rewriting module: _ssl [assertion]
+      early skip of rewriting module: urllib3._base_connection [assertion]
+      early skip of rewriting module: urllib3.util [assertion]
+      early skip of rewriting module: urllib3.util.connection [assertion]
+      early skip of rewriting module: urllib3.util.timeout [assertion]
+      early skip of rewriting module: urllib3.util.request [assertion]
+      early skip of rewriting module: urllib3.util.util [assertion]
+      early skip of rewriting module: brotlicffi [assertion]
+      early skip of rewriting module: brotli [assertion]
+      early skip of rewriting module: zstandard [assertion]
+      early skip of rewriting module: urllib3.util.response [assertion]
+      early skip of rewriting module: urllib3.util.retry [assertion]
+      early skip of rewriting module: urllib3.util.ssl_ [assertion]
+      early skip of rewriting module: hmac [assertion]
+      early skip of rewriting module: _hashlib [assertion]
+      early skip of rewriting module: hashlib [assertion]
+      early skip of rewriting module: _blake2 [assertion]
+      early skip of rewriting module: urllib3.util.url [assertion]
+      early skip of rewriting module: urllib3.util.ssltransport [assertion]
+      early skip of rewriting module: urllib3.util.wait [assertion]
+      early skip of rewriting module: urllib3._collections [assertion]
+      early skip of rewriting module: urllib3._version [assertion]
+      early skip of rewriting module: urllib3.connectionpool [assertion]
+      early skip of rewriting module: queue [assertion]
+      early skip of rewriting module: _queue [assertion]
+      early skip of rewriting module: urllib3._request_methods [assertion]
+      early skip of rewriting module: urllib3.filepost [assertion]
+      early skip of rewriting module: urllib3.fields [assertion]
+      early skip of rewriting module: mimetypes [assertion]
+      early skip of rewriting module: _winapi [assertion]
+      early skip of rewriting module: winreg [assertion]
+      early skip of rewriting module: urllib3.response [assertion]
+      early skip of rewriting module: brotlicffi [assertion]
+      early skip of rewriting module: brotli [assertion]
+      early skip of rewriting module: zstandard [assertion]
+      early skip of rewriting module: urllib3.connection [assertion]
+      early skip of rewriting module: urllib3.util.ssl_match_hostname [assertion]
+      early skip of rewriting module: ipaddress [assertion]
+      early skip of rewriting module: urllib3.util.proxy [assertion]
+      early skip of rewriting module: urllib3.poolmanager [assertion]
+      early skip of rewriting module: urllib3_secure_extra [assertion]
+      early skip of rewriting module: requests.exceptions [assertion]
+      early skip of rewriting module: requests.compat [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: charset_normalizer [assertion]
+      early skip of rewriting module: charset_normalizer.api [assertion]
+      early skip of rewriting module: charset_normalizer.cd [assertion]
+      early skip of rewriting module: charset_normalizer.assets [assertion]
+      early skip of rewriting module: charset_normalizer.constant [assertion]
+      early skip of rewriting module: charset_normalizer.md [assertion]
+      early skip of rewriting module: charset_normalizer.md__mypyc [assertion]
+      early skip of rewriting module: charset_normalizer.utils [assertion]
+      early skip of rewriting module: _multibytecodec [assertion]
+      early skip of rewriting module: charset_normalizer.models [assertion]
+      early skip of rewriting module: charset_normalizer.legacy [assertion]
+      early skip of rewriting module: charset_normalizer.version [assertion]
+      early skip of rewriting module: simplejson [assertion]
+      early skip of rewriting module: http.cookiejar [assertion]
+      early skip of rewriting module: urllib.request [assertion]
+      early skip of rewriting module: urllib.error [assertion]
+      early skip of rewriting module: urllib.response [assertion]
+      early skip of rewriting module: _scproxy [assertion]
+      early skip of rewriting module: http.cookies [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: requests.packages [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: idna [assertion]
+      early skip of rewriting module: idna.package_data [assertion]
+      early skip of rewriting module: idna.core [assertion]
+      early skip of rewriting module: idna.idnadata [assertion]
+      early skip of rewriting module: idna.intranges [assertion]
+      early skip of rewriting module: requests.utils [assertion]
+      early skip of rewriting module: requests.certs [assertion]
+      early skip of rewriting module: certifi [assertion]
+      early skip of rewriting module: certifi.core [assertion]
+      early skip of rewriting module: importlib.resources [assertion]
+      early skip of rewriting module: importlib._common [assertion]
+      early skip of rewriting module: importlib._adapters [assertion]
+      early skip of rewriting module: requests.__version__ [assertion]
+      early skip of rewriting module: requests._internal_utils [assertion]
+      early skip of rewriting module: requests.cookies [assertion]
+      early skip of rewriting module: requests.structures [assertion]
+      early skip of rewriting module: importlib.readers [assertion]
+      early skip of rewriting module: requests.api [assertion]
+      early skip of rewriting module: requests.sessions [assertion]
+      early skip of rewriting module: requests.adapters [assertion]
+      early skip of rewriting module: requests.auth [assertion]
+      early skip of rewriting module: requests.models [assertion]
+      early skip of rewriting module: encodings.idna [assertion]
+      early skip of rewriting module: stringprep [assertion]
+      early skip of rewriting module: requests.hooks [assertion]
+      early skip of rewriting module: requests.status_codes [assertion]
+      early skip of rewriting module: urllib3.contrib [assertion]
+      early skip of rewriting module: urllib3.contrib.socks [assertion]
+      early skip of rewriting module: socks [assertion]
+      early skip of rewriting module: requests_oauthlib [assertion]
+      early skip of rewriting module: requests_oauthlib.oauth1_auth [assertion]
+      early skip of rewriting module: oauthlib [assertion]
+      early skip of rewriting module: oauthlib.common [assertion]
+      early skip of rewriting module: secrets [assertion]
+      early skip of rewriting module: oauthlib.oauth1 [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849 [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.parameters [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.utils [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.signature [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.endpoints [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.endpoints.access_token [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.errors [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.endpoints.base [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.endpoints.authorization [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.endpoints.request_token [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.endpoints.resource [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.endpoints.signature_only [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.endpoints.pre_configured [assertion]
+      early skip of rewriting module: oauthlib.oauth1.rfc5849.request_validator [assertion]
+      early skip of rewriting module: requests_oauthlib.oauth1_session [assertion]
+      early skip of rewriting module: urlparse [assertion]
+      early skip of rewriting module: requests_oauthlib.oauth2_auth [assertion]
+      early skip of rewriting module: oauthlib.oauth2 [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749 [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.endpoints [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.endpoints.authorization [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.utils [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.endpoints.base [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.errors [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.endpoints.introspect [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.endpoints.metadata [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.grant_types [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.grant_types.authorization_code [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.grant_types.base [assertion]
+      early skip of rewriting module: oauthlib.uri_validate [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.request_validator [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.grant_types.client_credentials [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.grant_types.implicit [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.grant_types.refresh_token [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.endpoints.revocation [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.endpoints.token [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.endpoints.pre_configured [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.tokens [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.endpoints.resource [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.clients [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.clients.backend_application [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.parameters [assertion]
+      early skip of rewriting module: oauthlib.signals [assertion]
+      early skip of rewriting module: blinker [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.clients.base [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.clients.legacy_application [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.clients.mobile_application [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.clients.service_application [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc6749.clients.web_application [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc8628 [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc8628.clients [assertion]
+      early skip of rewriting module: oauthlib.oauth2.rfc8628.clients.device [assertion]
+      early skip of rewriting module: requests_oauthlib.oauth2_session [assertion]
+      early skip of rewriting module: ssqaapitest.src.utilities.credentialsUtility [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py>
+            name: pdb
+            obj: <module 'pdb' from '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/pdb.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py>
+            name: pytest
+            obj: <module 'pytest' from '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/venv3/lib/python3.10/site-packages/pytest/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py>
+            name: logger
+            obj: <module 'logging' from '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/logging/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py>
+            name: generate_random_email_password
+            obj: <function generate_random_email_password at 0x1062b3370>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py>
+            name: CustomerHelper
+            obj: <class 'ssqaapitest.src.helpers.customers_helper.CustomerHelper'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py>
+            name: __warningregistry__
+            obj: {'version': 15, ('Unknown pytest.mark.tcid29 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html', <class 'pytest.PytestUnknownMarkWarning'>, 8): True}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module ssqaapitest/tests/Customers/test_create_customers_smoke.py>
+            name: test_create_customer_only_email_password
+            obj: <function test_create_customer_only_email_password at 0x1062b3130>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1062c61a0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_create_customer_only_email_password>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'ssqaapitest/tests/Customers/test_create_customers_smoke.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_create_customer_only_email_password> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_create_customer_only_email_password>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'ssqaapitest/tests/Customers/test_create_customers_smoke.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x10618ca00>
+          items: [<Function test_login_page_valid_user>, <Function test_login_page_wrong_password>, <Function test_checkout_as_guest>, <Function test_checkout_as_existing_user>, <Function test_healthcheck_1>, <Function test_create_customer_only_email_password>]
+        pytest_deselected [hook]
+            items: [<Function test_login_page_valid_user>, <Function test_login_page_wrong_password>, <Function test_checkout_as_guest>, <Function test_checkout_as_existing_user>, <Function test_healthcheck_1>]
+        finish pytest_deselected --> [] [hook]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x10618ca00>
+            items: [<Function test_create_customer_only_email_password>]
+            start_path: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER
+            startdir: /Users/koshevarov.roma/Desktop/PRIVATE_FOLDER
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : PytestUnknownMarkWarning('Unknown pytest.mark.tcid29 - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html'), category : 'PytestUnknownMarkWarning', filename : '/Users/koshevarov.roma/Desktop/PRIVATE_FOLDER/ssqaapitest/tests/Customers/test_create_customers_smoke.py', lineno : 8, line : None}
+          nodeid: 
+          when: collect
+          location: None
+      finish pytest_warning_recorded --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session PRIVATE_FOLDER exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=1>
+      pytest_runtest_protocol [hook]
+          item: <Function test_create_customer_only_email_password>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: ssqaapitest/tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password
+            location: ('ssqaapitest/tests/Customers/test_create_customers_smoke.py', 7, 'test_create_customer_only_email_password')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_create_customer_only_email_password>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_customer_only_email_password>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'ssqaapitest/tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'ssqaapitest/tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'ssqaapitest/tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10618ca00>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_create_customer_only_email_password>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_create_customer_only_email_password>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_customer_only_email_password>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'ssqaapitest/tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'ssqaapitest/tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'ssqaapitest/tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10618ca00>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_create_customer_only_email_password>
+            nextitem: None
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_customer_only_email_password>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'ssqaapitest/tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'ssqaapitest/tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'ssqaapitest/tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10618ca00>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: ssqaapitest/tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password
+            location: ('ssqaapitest/tests/Customers/test_create_customers_smoke.py', 7, 'test_create_customer_only_email_password')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session PRIVATE_FOLDER exitstatus=0 testsfailed=0 testscollected=1>
+        exitstatus: 0
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x1062693c0>
+          exitstatus: 0
+          config: <_pytest.config.Config object at 0x10618ca00>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x10618ca00>
+    finish pytest_unconfigure --> [] [hook]

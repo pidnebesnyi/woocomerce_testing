@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">customers.html</title>
+      <link href="assets/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">customers.html</h1>
+    <p>Report generated on 12-Oct-2023 at 16:06:57 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.0.2</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">3 tests took 377 ms.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to ge the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" disabled/>
+            <span class="failed">0 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">3 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.10.5&#34;, &#34;Platform&#34;: &#34;macOS-14.0-arm64-arm-64bit&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;7.4.0&#34;, &#34;pluggy&#34;: &#34;1.2.0&#34;}, &#34;Plugins&#34;: {&#34;html&#34;: &#34;4.0.2&#34;, &#34;metadata&#34;: &#34;3.0.0&#34;}}, &#34;tests&#34;: {&#34;tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password&#34;, &#34;duration&#34;: &#34;221 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/Customers/test_create_customers_smoke.py::test_create_customer_only_email_password&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;221 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    root:genericUtilities.py:6 Generation Random Email And Password\nDEBUG    root:genericUtilities.py:22 Genetated email and password: {&#39;email&#39;: &#39;testusernsdzthegdm@supersqa.com&#39;, &#39;password&#39;: &#39;jCbSQYoVcwGQexfpeBPn&#39;}\nINFO     root:test_create_customers_smoke.py:17 TEST 29: Create a customer with email and password\nDEBUG    root:test_create_customers_smoke.py:20 cust_object = CustomerHelper()\nINFO     root:requestsUtility.py:26 HEY\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:77 Signing request &lt;PreparedRequest [POST]&gt; using client &lt;Client client_key=ck_2b43f7d1897276f428658199e2a249489f5cb070, client_secret=****, resource_owner_key=None, resource_owner_secret=None, signature_method=HMAC-SHA1, signature_type=AUTH_HEADER, callback_uri=None, rsa_key=None, verifier=None, realm=None, encoding=utf-8, decoding=utf-8, nonce=None, timestamp=None&gt;\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:91 Including body in call to sign: False\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:171 Collected params: [(&#39;oauth_nonce&#39;, &#39;120797140002839912801697116016&#39;), (&#39;oauth_timestamp&#39;, &#39;1697116016&#39;), (&#39;oauth_version&#39;, &#39;1.0&#39;), (&#39;oauth_signature_method&#39;, &#39;HMAC-SHA1&#39;), (&#39;oauth_consumer_key&#39;, &#39;ck_2b43f7d1897276f428658199e2a249489f5cb070&#39;)]\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:175 Normalized params: oauth_consumer_key=ck_2b43f7d1897276f428658199e2a249489f5cb070&amp;oauth_nonce=120797140002839912801697116016&amp;oauth_signature_method=HMAC-SHA1&amp;oauth_timestamp=1697116016&amp;oauth_version=1.0\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:176 Normalized URI: http://pidnebesnyi.local/wp-json/wc/v3/customers\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:181 Signing: signature base string: POST&amp;http%3A%2F%2Fpidnebesnyi.local%2Fwp-json%2Fwc%2Fv3%2Fcustomers&amp;oauth_consumer_key%3Dck_2b43f7d1897276f428658199e2a249489f5cb070%26oauth_nonce%3D120797140002839912801697116016%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1697116016%26oauth_version%3D1.0\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:188 Signature: D1EfzbHn07zZ7FPf4PsPRNUM5s8=\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:358 Encoding URI, headers and body to utf-8.\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:114 Updated url: http://pidnebesnyi.local/wp-json/wc/v3/customers\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:115 Updated headers: {b&#39;User-Agent&#39;: b&#39;python-requests/2.31.0&#39;, b&#39;Accept-Encoding&#39;: b&#39;gzip, deflate&#39;, b&#39;Accept&#39;: b&#39;*/*&#39;, b&#39;Connection&#39;: b&#39;keep-alive&#39;, b&#39;Content-Type&#39;: b&#39;application/json&#39;, b&#39;Content-Length&#39;: b&#39;80&#39;, b&#39;Authorization&#39;: b&#39;OAuth oauth_nonce=\&#34;120797140002839912801697116016\&#34;, oauth_timestamp=\&#34;1697116016\&#34;, oauth_version=\&#34;1.0\&#34;, oauth_signature_method=\&#34;HMAC-SHA1\&#34;, oauth_consumer_key=\&#34;ck_2b43f7d1897276f428658199e2a249489f5cb070\&#34;, oauth_signature=\&#34;D1EfzbHn07zZ7FPf4PsPRNUM5s8%3D\&#34;&#39;}\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:116 Updated body: &#39;{\&#34;email\&#34;: \&#34;testusernsdzthegdm@supersqa.com\&#34;, \&#34;password\&#34;: \&#34;jCbSQYoVcwGQexfpeBPn\&#34;}&#39;\nDEBUG    urllib3.connectionpool:connectionpool.py:244 Starting new HTTP connection (1): pidnebesnyi.local:80\nDEBUG    urllib3.connectionpool:connectionpool.py:546 http://pidnebesnyi.local:80 \&#34;POST /wp-json/wc/v3/customers HTTP/1.1\&#34; 201 None\nINFO     root:requestsUtility.py:35 API POST Response: {&#39;id&#39;: 52, &#39;date_created&#39;: &#39;2023-10-12T13:06:56&#39;, &#39;date_created_gmt&#39;: &#39;2023-10-12T13:06:56&#39;, &#39;date_modified&#39;: &#39;2023-10-12T13:06:56&#39;, &#39;date_modified_gmt&#39;: &#39;2023-10-12T13:06:56&#39;, &#39;email&#39;: &#39;testusernsdzthegdm@supersqa.com&#39;, &#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;role&#39;: &#39;customer&#39;, &#39;username&#39;: &#39;testusernsdzthegdm&#39;, &#39;billing&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;email&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;shipping&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;is_paying_customer&#39;: False, &#39;avatar_url&#39;: &#39;http://1.gravatar.com/avatar/aa9003fc3fdbfde061f438013eb7de99?s=96&amp;d=mm&amp;r=g&#39;, &#39;meta_data&#39;: [], &#39;_links&#39;: {&#39;self&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers/52&#39;}], &#39;collection&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers&#39;}]}}\nDEBUG    root:dbUtility.py:26 Executing SQL: SELECT * FROM local.wp_users WHERE user_email = &#39;testusernsdzthegdm@supersqa.com&#39;;\n\n&#34;}], &#34;tests/Customers/test_create_customers_smoke.py::test_create_customer_fail_for_existing_email&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/Customers/test_create_customers_smoke.py::test_create_customer_fail_for_existing_email&#34;, &#34;duration&#34;: &#34;73 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/Customers/test_create_customers_smoke.py::test_create_customer_fail_for_existing_email&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;73 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    root:dbUtility.py:26 Executing SQL: SELECT * FROM local.wp_users ORDER BY id DESC LIMIT 5000;\nINFO     root:requestsUtility.py:26 HEY\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:77 Signing request &lt;PreparedRequest [POST]&gt; using client &lt;Client client_key=ck_2b43f7d1897276f428658199e2a249489f5cb070, client_secret=****, resource_owner_key=None, resource_owner_secret=None, signature_method=HMAC-SHA1, signature_type=AUTH_HEADER, callback_uri=None, rsa_key=None, verifier=None, realm=None, encoding=utf-8, decoding=utf-8, nonce=None, timestamp=None&gt;\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:91 Including body in call to sign: False\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:171 Collected params: [(&#39;oauth_nonce&#39;, &#39;68437734152328424981697116016&#39;), (&#39;oauth_timestamp&#39;, &#39;1697116016&#39;), (&#39;oauth_version&#39;, &#39;1.0&#39;), (&#39;oauth_signature_method&#39;, &#39;HMAC-SHA1&#39;), (&#39;oauth_consumer_key&#39;, &#39;ck_2b43f7d1897276f428658199e2a249489f5cb070&#39;)]\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:175 Normalized params: oauth_consumer_key=ck_2b43f7d1897276f428658199e2a249489f5cb070&amp;oauth_nonce=68437734152328424981697116016&amp;oauth_signature_method=HMAC-SHA1&amp;oauth_timestamp=1697116016&amp;oauth_version=1.0\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:176 Normalized URI: http://pidnebesnyi.local/wp-json/wc/v3/customers\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:181 Signing: signature base string: POST&amp;http%3A%2F%2Fpidnebesnyi.local%2Fwp-json%2Fwc%2Fv3%2Fcustomers&amp;oauth_consumer_key%3Dck_2b43f7d1897276f428658199e2a249489f5cb070%26oauth_nonce%3D68437734152328424981697116016%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1697116016%26oauth_version%3D1.0\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:188 Signature: 3voUeLkuiS6PxpBhRzhbWTRlafQ=\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:358 Encoding URI, headers and body to utf-8.\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:114 Updated url: http://pidnebesnyi.local/wp-json/wc/v3/customers\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:115 Updated headers: {b&#39;User-Agent&#39;: b&#39;python-requests/2.31.0&#39;, b&#39;Accept-Encoding&#39;: b&#39;gzip, deflate&#39;, b&#39;Accept&#39;: b&#39;*/*&#39;, b&#39;Connection&#39;: b&#39;keep-alive&#39;, b&#39;Content-Type&#39;: b&#39;application/json&#39;, b&#39;Content-Length&#39;: b&#39;69&#39;, b&#39;Authorization&#39;: b&#39;OAuth oauth_nonce=\&#34;68437734152328424981697116016\&#34;, oauth_timestamp=\&#34;1697116016\&#34;, oauth_version=\&#34;1.0\&#34;, oauth_signature_method=\&#34;HMAC-SHA1\&#34;, oauth_consumer_key=\&#34;ck_2b43f7d1897276f428658199e2a249489f5cb070\&#34;, oauth_signature=\&#34;3voUeLkuiS6PxpBhRzhbWTRlafQ%3D\&#34;&#39;}\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:116 Updated body: &#39;{\&#34;email\&#34;: \&#34;testusernsdzthegdm@supersqa.com\&#34;, \&#34;password\&#34;: \&#34;Password1\&#34;}&#39;\nDEBUG    urllib3.connectionpool:connectionpool.py:244 Starting new HTTP connection (1): pidnebesnyi.local:80\nDEBUG    urllib3.connectionpool:connectionpool.py:546 http://pidnebesnyi.local:80 \&#34;POST /wp-json/wc/v3/customers HTTP/1.1\&#34; 400 None\nINFO     root:requestsUtility.py:35 API POST Response: {&#39;code&#39;: &#39;registration-error-email-exists&#39;, &#39;message&#39;: &#39;An account is already registered with your email address. &lt;a href=\&#34;#\&#34; class=\&#34;showlogin\&#34;&gt;Please log in.&lt;/a&gt;&#39;, &#39;data&#39;: {&#39;status&#39;: 400}}\n\n&#34;}], &#34;tests/Customers/test_get_customers_smoke.py::test_get_all_customers&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/Customers/test_get_customers_smoke.py::test_get_all_customers&#34;, &#34;duration&#34;: &#34;82 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/Customers/test_get_customers_smoke.py::test_get_all_customers&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;82 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:77 Signing request &lt;PreparedRequest [GET]&gt; using client &lt;Client client_key=ck_2b43f7d1897276f428658199e2a249489f5cb070, client_secret=****, resource_owner_key=None, resource_owner_secret=None, signature_method=HMAC-SHA1, signature_type=AUTH_HEADER, callback_uri=None, rsa_key=None, verifier=None, realm=None, encoding=utf-8, decoding=utf-8, nonce=None, timestamp=None&gt;\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:91 Including body in call to sign: False\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:171 Collected params: [(&#39;oauth_nonce&#39;, &#39;166843029069410133231697116017&#39;), (&#39;oauth_timestamp&#39;, &#39;1697116017&#39;), (&#39;oauth_version&#39;, &#39;1.0&#39;), (&#39;oauth_signature_method&#39;, &#39;HMAC-SHA1&#39;), (&#39;oauth_consumer_key&#39;, &#39;ck_2b43f7d1897276f428658199e2a249489f5cb070&#39;)]\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:175 Normalized params: oauth_consumer_key=ck_2b43f7d1897276f428658199e2a249489f5cb070&amp;oauth_nonce=166843029069410133231697116017&amp;oauth_signature_method=HMAC-SHA1&amp;oauth_timestamp=1697116017&amp;oauth_version=1.0\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:176 Normalized URI: http://pidnebesnyi.local/wp-json/wc/v3/customers\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:181 Signing: signature base string: GET&amp;http%3A%2F%2Fpidnebesnyi.local%2Fwp-json%2Fwc%2Fv3%2Fcustomers&amp;oauth_consumer_key%3Dck_2b43f7d1897276f428658199e2a249489f5cb070%26oauth_nonce%3D166843029069410133231697116017%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1697116017%26oauth_version%3D1.0\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:188 Signature: nDuSMDTlr9TT7R6KsJ5ao8DYkz0=\nDEBUG    oauthlib.oauth1.rfc5849:__init__.py:358 Encoding URI, headers and body to utf-8.\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:114 Updated url: http://pidnebesnyi.local/wp-json/wc/v3/customers\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:115 Updated headers: {b&#39;User-Agent&#39;: b&#39;python-requests/2.31.0&#39;, b&#39;Accept-Encoding&#39;: b&#39;gzip, deflate&#39;, b&#39;Accept&#39;: b&#39;*/*&#39;, b&#39;Connection&#39;: b&#39;keep-alive&#39;, b&#39;Content-Type&#39;: b&#39;application/json&#39;, b&#39;Content-Length&#39;: b&#39;4&#39;, b&#39;Authorization&#39;: b&#39;OAuth oauth_nonce=\&#34;166843029069410133231697116017\&#34;, oauth_timestamp=\&#34;1697116017\&#34;, oauth_version=\&#34;1.0\&#34;, oauth_signature_method=\&#34;HMAC-SHA1\&#34;, oauth_consumer_key=\&#34;ck_2b43f7d1897276f428658199e2a249489f5cb070\&#34;, oauth_signature=\&#34;nDuSMDTlr9TT7R6KsJ5ao8DYkz0%3D\&#34;&#39;}\nDEBUG    requests_oauthlib.oauth1_auth:oauth1_auth.py:116 Updated body: &#39;null&#39;\nDEBUG    urllib3.connectionpool:connectionpool.py:244 Starting new HTTP connection (1): pidnebesnyi.local:80\nDEBUG    urllib3.connectionpool:connectionpool.py:546 http://pidnebesnyi.local:80 \&#34;GET /wp-json/wc/v3/customers HTTP/1.1\&#34; 200 None\nINFO     root:requestsUtility.py:48 API GET Response: [{&#39;id&#39;: 2, &#39;date_created&#39;: &#39;2023-10-03T15:08:46&#39;, &#39;date_created_gmt&#39;: &#39;2023-10-03T15:08:46&#39;, &#39;date_modified&#39;: &#39;2023-10-03T15:08:46&#39;, &#39;date_modified_gmt&#39;: &#39;2023-10-03T15:08:46&#39;, &#39;email&#39;: &#39;john.doe@example.com&#39;, &#39;first_name&#39;: &#39;John&#39;, &#39;last_name&#39;: &#39;Doe&#39;, &#39;role&#39;: &#39;customer&#39;, &#39;username&#39;: &#39;john.doe&#39;, &#39;billing&#39;: {&#39;first_name&#39;: &#39;John&#39;, &#39;last_name&#39;: &#39;Doe&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;969 Market&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;San Francisco&#39;, &#39;postcode&#39;: &#39;94103&#39;, &#39;country&#39;: &#39;US&#39;, &#39;state&#39;: &#39;CA&#39;, &#39;email&#39;: &#39;john.doe@example.com&#39;, &#39;phone&#39;: &#39;(555) 555-5555&#39;}, &#39;shipping&#39;: {&#39;first_name&#39;: &#39;John&#39;, &#39;last_name&#39;: &#39;Doe&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;969 Market&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;San Francisco&#39;, &#39;postcode&#39;: &#39;94103&#39;, &#39;country&#39;: &#39;US&#39;, &#39;state&#39;: &#39;CA&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;is_paying_customer&#39;: False, &#39;avatar_url&#39;: &#39;http://2.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=96&amp;d=mm&amp;r=g&#39;, &#39;meta_data&#39;: [], &#39;_links&#39;: {&#39;self&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers/2&#39;}], &#39;collection&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers&#39;}]}}, {&#39;id&#39;: 3, &#39;date_created&#39;: &#39;2023-10-03T15:10:28&#39;, &#39;date_created_gmt&#39;: &#39;2023-10-03T15:10:28&#39;, &#39;date_modified&#39;: &#39;2023-10-03T15:10:28&#39;, &#39;date_modified_gmt&#39;: &#39;2023-10-03T15:10:28&#39;, &#39;email&#39;: &#39;roman.koshevarov@example.com&#39;, &#39;first_name&#39;: &#39;Roman&#39;, &#39;last_name&#39;: &#39;kosehavrov&#39;, &#39;role&#39;: &#39;customer&#39;, &#39;username&#39;: &#39;rokoshevarov&#39;, &#39;billing&#39;: {&#39;first_name&#39;: &#39;John&#39;, &#39;last_name&#39;: &#39;Doe&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;969 Market&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;San Francisco&#39;, &#39;postcode&#39;: &#39;94103&#39;, &#39;country&#39;: &#39;US&#39;, &#39;state&#39;: &#39;CA&#39;, &#39;email&#39;: &#39;john.doe@example.com&#39;, &#39;phone&#39;: &#39;(555) 555-5555&#39;}, &#39;shipping&#39;: {&#39;first_name&#39;: &#39;John&#39;, &#39;last_name&#39;: &#39;Doe&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;969 Market&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;San Francisco&#39;, &#39;postcode&#39;: &#39;94103&#39;, &#39;country&#39;: &#39;US&#39;, &#39;state&#39;: &#39;CA&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;is_paying_customer&#39;: False, &#39;avatar_url&#39;: &#39;http://0.gravatar.com/avatar/30058d8cc70583ce6348fdb7b83006a4?s=96&amp;d=mm&amp;r=g&#39;, &#39;meta_data&#39;: [], &#39;_links&#39;: {&#39;self&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers/3&#39;}], &#39;collection&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers&#39;}]}}, {&#39;id&#39;: 40, &#39;date_created&#39;: &#39;2023-10-10T13:36:24&#39;, &#39;date_created_gmt&#39;: &#39;2023-10-10T13:36:24&#39;, &#39;date_modified&#39;: &#39;2023-10-10T13:36:24&#39;, &#39;date_modified_gmt&#39;: &#39;2023-10-10T13:36:24&#39;, &#39;email&#39;: &#39;testuseraqurwytayp@supersqa.com&#39;, &#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;role&#39;: &#39;customer&#39;, &#39;username&#39;: &#39;testuseraqurwytayp&#39;, &#39;billing&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;email&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;shipping&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;is_paying_customer&#39;: False, &#39;avatar_url&#39;: &#39;http://1.gravatar.com/avatar/a5891f8bf6ac6cfd1e663a07df867fa6?s=96&amp;d=mm&amp;r=g&#39;, &#39;meta_data&#39;: [], &#39;_links&#39;: {&#39;self&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers/40&#39;}], &#39;collection&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers&#39;}]}}, {&#39;id&#39;: 27, &#39;date_created&#39;: &#39;2023-10-09T16:24:55&#39;, &#39;date_created_gmt&#39;: &#39;2023-10-09T16:24:55&#39;, &#39;date_modified&#39;: &#39;2023-10-09T16:24:55&#39;, &#39;date_modified_gmt&#39;: &#39;2023-10-09T16:24:55&#39;, &#39;email&#39;: &#39;testuserbrnugwrdai@supersqa.com&#39;, &#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;role&#39;: &#39;customer&#39;, &#39;username&#39;: &#39;testuserbrnugwrdai&#39;, &#39;billing&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;email&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;shipping&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;is_paying_customer&#39;: False, &#39;avatar_url&#39;: &#39;http://2.gravatar.com/avatar/8e6b3c158e3fba0db6a32bd734df7fad?s=96&amp;d=mm&amp;r=g&#39;, &#39;meta_data&#39;: [], &#39;_links&#39;: {&#39;self&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers/27&#39;}], &#39;collection&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers&#39;}]}}, {&#39;id&#39;: 4, &#39;date_created&#39;: &#39;2023-10-09T11:28:42&#39;, &#39;date_created_gmt&#39;: &#39;2023-10-09T11:28:42&#39;, &#39;date_modified&#39;: &#39;2023-10-09T11:28:42&#39;, &#39;date_modified_gmt&#39;: &#39;2023-10-09T11:28:42&#39;, &#39;email&#39;: &#39;testuserbycmistyhz@supersqa.com&#39;, &#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;role&#39;: &#39;customer&#39;, &#39;username&#39;: &#39;testuserbycmistyhz&#39;, &#39;billing&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;email&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;shipping&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;is_paying_customer&#39;: False, &#39;avatar_url&#39;: &#39;http://0.gravatar.com/avatar/32fdc51ae4d8f4e8c98a6f9ca735c920?s=96&amp;d=mm&amp;r=g&#39;, &#39;meta_data&#39;: [], &#39;_links&#39;: {&#39;self&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers/4&#39;}], &#39;collection&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers&#39;}]}}, {&#39;id&#39;: 15, &#39;date_created&#39;: &#39;2023-10-09T16:11:37&#39;, &#39;date_created_gmt&#39;: &#39;2023-10-09T16:11:37&#39;, &#39;date_modified&#39;: &#39;2023-10-09T16:11:37&#39;, &#39;date_modified_gmt&#39;: &#39;2023-10-09T16:11:37&#39;, &#39;email&#39;: &#39;testusercabnsuecrb@supersqa.com&#39;, &#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;role&#39;: &#39;customer&#39;, &#39;username&#39;: &#39;testusercabnsuecrb&#39;, &#39;billing&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;email&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;shipping&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;is_paying_customer&#39;: False, &#39;avatar_url&#39;: &#39;http://0.gravatar.com/avatar/0d8628fa80d54c1f1c661b30834255f1?s=96&amp;d=mm&amp;r=g&#39;, &#39;meta_data&#39;: [], &#39;_links&#39;: {&#39;self&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers/15&#39;}], &#39;collection&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers&#39;}]}}, {&#39;id&#39;: 25, &#39;date_created&#39;: &#39;2023-10-09T16:24:35&#39;, &#39;date_created_gmt&#39;: &#39;2023-10-09T16:24:35&#39;, &#39;date_modified&#39;: &#39;2023-10-09T16:24:35&#39;, &#39;date_modified_gmt&#39;: &#39;2023-10-09T16:24:35&#39;, &#39;email&#39;: &#39;testusercfxmbywhzc@supersqa.com&#39;, &#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;role&#39;: &#39;customer&#39;, &#39;username&#39;: &#39;testusercfxmbywhzc&#39;, &#39;billing&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;email&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;shipping&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;is_paying_customer&#39;: False, &#39;avatar_url&#39;: &#39;http://1.gravatar.com/avatar/74699dfeabb8d8e2a2db32b30b07afdb?s=96&amp;d=mm&amp;r=g&#39;, &#39;meta_data&#39;: [], &#39;_links&#39;: {&#39;self&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers/25&#39;}], &#39;collection&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers&#39;}]}}, {&#39;id&#39;: 11, &#39;date_created&#39;: &#39;2023-10-09T16:05:54&#39;, &#39;date_created_gmt&#39;: &#39;2023-10-09T16:05:54&#39;, &#39;date_modified&#39;: &#39;2023-10-09T16:05:55&#39;, &#39;date_modified_gmt&#39;: &#39;2023-10-09T16:05:55&#39;, &#39;email&#39;: &#39;testusercmslxygyra@supersqa.com&#39;, &#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;role&#39;: &#39;customer&#39;, &#39;username&#39;: &#39;testusercmslxygyra&#39;, &#39;billing&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;email&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;shipping&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;is_paying_customer&#39;: False, &#39;avatar_url&#39;: &#39;http://0.gravatar.com/avatar/35f167615b6837fff6f58d2802068801?s=96&amp;d=mm&amp;r=g&#39;, &#39;meta_data&#39;: [], &#39;_links&#39;: {&#39;self&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers/11&#39;}], &#39;collection&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers&#39;}]}}, {&#39;id&#39;: 30, &#39;date_created&#39;: &#39;2023-10-09T16:25:58&#39;, &#39;date_created_gmt&#39;: &#39;2023-10-09T16:25:58&#39;, &#39;date_modified&#39;: &#39;2023-10-09T16:25:58&#39;, &#39;date_modified_gmt&#39;: &#39;2023-10-09T16:25:58&#39;, &#39;email&#39;: &#39;testusercqlauqlxyc@supersqa.com&#39;, &#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;role&#39;: &#39;customer&#39;, &#39;username&#39;: &#39;testusercqlauqlxyc&#39;, &#39;billing&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;email&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;shipping&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;is_paying_customer&#39;: False, &#39;avatar_url&#39;: &#39;http://1.gravatar.com/avatar/d1d5a789f74bcd5269273da9631a28f7?s=96&amp;d=mm&amp;r=g&#39;, &#39;meta_data&#39;: [], &#39;_links&#39;: {&#39;self&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers/30&#39;}], &#39;collection&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers&#39;}]}}, {&#39;id&#39;: 23, &#39;date_created&#39;: &#39;2023-10-09T16:22:48&#39;, &#39;date_created_gmt&#39;: &#39;2023-10-09T16:22:48&#39;, &#39;date_modified&#39;: &#39;2023-10-09T16:22:48&#39;, &#39;date_modified_gmt&#39;: &#39;2023-10-09T16:22:48&#39;, &#39;email&#39;: &#39;testusercyscxnygin@supersqa.com&#39;, &#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;role&#39;: &#39;customer&#39;, &#39;username&#39;: &#39;testusercyscxnygin&#39;, &#39;billing&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;email&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;shipping&#39;: {&#39;first_name&#39;: &#39;&#39;, &#39;last_name&#39;: &#39;&#39;, &#39;company&#39;: &#39;&#39;, &#39;address_1&#39;: &#39;&#39;, &#39;address_2&#39;: &#39;&#39;, &#39;city&#39;: &#39;&#39;, &#39;postcode&#39;: &#39;&#39;, &#39;country&#39;: &#39;&#39;, &#39;state&#39;: &#39;&#39;, &#39;phone&#39;: &#39;&#39;}, &#39;is_paying_customer&#39;: False, &#39;avatar_url&#39;: &#39;http://2.gravatar.com/avatar/846584c3700c5fb79e40a38fcfe6dcd1?s=96&amp;d=mm&amp;r=g&#39;, &#39;meta_data&#39;: [], &#39;_links&#39;: {&#39;self&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers/23&#39;}], &#39;collection&#39;: [{&#39;href&#39;: &#39;http://pidnebesnyi.local/wp-json/wc/v3/customers&#39;}]}}]\n\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;customers.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`).classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>
